@@ -20,6 +20,7 @@ body {
   font-family: "IBM Plex Sans", san-serif;
   font-size: 1.6rem;
   line-height: 1.5;
+  color: rgb(22, 24, 35);
   text-rendering: optimizeSpeed;
 }
 
@@ -33,4 +34,20 @@ input,
 a[href] {
   color: var(--text-color);
   text-decoration: none;
+}
+
+body {
+  .tippy-box {
+    background-color: rgba(84, 84, 84, 0.92);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 22px;
+  }
+  .tippy-arrow {
+    color: rgba(84, 84, 84, 0.92);
+  }
+  .tippy-content {
+    padding: 8px 9px;
+  }
 }
